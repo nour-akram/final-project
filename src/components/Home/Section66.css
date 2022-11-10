@@ -1,0 +1,84 @@
+/* .d{
+    display: flex;
+    width: 24.7%;
+    background-color: white;
+    border-radius: 8px;
+   margin-left: -10px;
+   border-radius: 5px;
+    padding: 5px;
+} */
+
+/* .ddd{
+    display: flex;
+
+    width: 87.4%;
+    margin-left: 120px;
+    justify-content: space-between;
+} */
+
+/* .dddd{
+
+    font-size: 20px;
+    font-weight: 800px;
+    margin-right: 7px;
+    margin-top: 2px;
+} */
+/* .ddddd{
+display:flex;
+  
+    width: 24.5%;
+    height: 40px;
+    padding:5px;
+} */
+.JumiaPay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+.ALL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: center;
+    width: 96%;
+    margin: 50px 0;
+}
+.JumiaPay:hover{
+     background-color: rgba(31, 29, 29, 0.83);
+    
+     color: white;
+}
+#dark .JumiaPay p{
+    color: white;
+}
+#dark .pp{
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .ALL{
+        display: flex;
+        flex-direction: column;
+       padding-left: 50px;
+       align-items: center;
+    }
+    .ALL img{
+        width: 5%;
+    }
+}
+
+.p{
+     margin-left: 110px;
+    width:87.9%;
+    font-size: 13px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
+a:hover{
+
+    transform: scale(1.01);
+ 
+}

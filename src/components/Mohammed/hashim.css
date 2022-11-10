@@ -1,0 +1,46 @@
+.card{
+
+    min-height:450px;
+    margin-top:2s0px;
+    
+    max-width:270px;
+    padding: 5px;
+    box-sizing: border-box;
+    }
+    .product-image{
+      height: 180px;
+      width: 100%;
+      
+    }
+    .product-title{
+     max-height:20px;
+     min-height:50px;
+     position:sticky;
+     line-height: 20px;
+    display: flex;
+    
+    
+    }
+    .start{
+      width: 180px;
+      display: flex;
+   
+    }
+    .shipp{
+    display: flex;
+    position:absolute;
+    left: 40px;
+    margin-top: -35px;
+       
+    }
+    .card:hover{
+      background-color:white;
+      border: 1px solid white;
+    transform:scale(1.05);
+    box-sizing: border-box;
+    }
+    .seddd{
+      color: rgb(255, 174, 0);
+      
+    }
+    

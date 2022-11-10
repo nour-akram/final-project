@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+#light{
+  background-color: white;
+}
+#dark{
+  background-color: rgba(31, 29, 29, 0.83);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.switch{
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* width: 100vw; */
+  height: auto;
+  gap: 10px;
+  
+}
+ 
+  
+#dark .sun{
+ color: white;
+ font-size: 18px;
+ 
+}
+#light .App{
+  background-color: black;
+}
+#dark .dark{
+ color:#f68b1e;
+ font-size: 18px;
+}
+#light .sun{
+  color:#f68b1e;
+  font-size: 18px;
+ }
+ #light .dark{
+  color:black;
+  font-size: 18px;
+ }
+#dark .header__header__search--input .search-input{
+  background-color: rgba(31, 29, 29, 0.42);
+}
+#dark .header__header__account-help-cart span {
+  color: white;
+}
+#dark .header__header__account-help-cart > *:hover > *:not(div) {
+  color: #f68b1e;
+  fill: #f68b1e;
+}
+#dark .header__small-banner{
+  background-color: rgba(31, 29, 29, 0.49);
+}
+
+#dark .arabic span{
+  color: white;
+  
+}
+#dark .email-address-jumia1,#dark .create-account,#dark .email-address-jumia2,#dark .create-account2,#dark .email-address-jumia3,#dark .create-account3{
+  color: white;
+}
+#dark .email-box,#dark .email-box2,#dark .email-box3{
+  color: white;
+}
+#dark .email-box input,#dark .email-box2 input,#dark .email-box3 input{
+  border: 1px solid white;
+  outline: none;
+}
+#dark .btn-continue,#dark .btn-continue2,#dark .btn-continue3{
+  box-shadow: 0 1px 1px 0 white, 0 2px 2px 0 white, 0 1px 5px white;
+
+}
+#dark .login-with-facebook{
+  box-shadow: 0 1px 1px 0 white, 0 2px 2px 0 white, 0 1px 5px 0 white;
+
+}
+#dark .support,#dark .support2,#dark .support3{
+   color: white;
+}
+#dark .email-box input,#dark .email-box2 input,#dark .email-box3 input{
+  color: white;
+  background-color: black;
+}
+#dark .search-input{
+  border-color: white ;
+  color: white;
+  fill:white
+}
+#dark .search-icon{
+  color: white;
+}
+#dark .arabic{
+  color: white;
+}
+/* #dark .single-product{
+  background-color: rgba(31, 29, 29, 0.83);
+} */
+
+#dark .single-product__left, #dark .single-product__right{
+  background-color: rgba(31, 29, 29, 0.42);
+}
+#dark .share h3, #dark .offers,#dark .promotions{
+  color: white;
+}
+#dark .social-icon{
+  color: white;
+  border-color: white;
+}
+#dark .social-icon:hover{
+  border-color:#f68b1e;
+}
+#dark .single-product__right{
+  color:white;
+}
+#dark .select-box select{
+  background-color: black;
+  color: white;
+}
+#dark .toggled-menu,#dark .help-menu{
+  background-color: black;
+  color: white;
+}
+#dark .main-section__left{
+  background-color: rgba(31, 29, 29, 0.83);
+  color: white;
+}
+#dark .content-on-hover{
+  background-color: rgba(31, 29, 29, 0.83);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

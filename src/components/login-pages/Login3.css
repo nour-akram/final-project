@@ -1,0 +1,163 @@
+/* *{
+    border: 1px solid red;
+} */
+.login3{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     gap: 6px;
+     /* margin-left: 70px; */
+  
+}
+.image-jumia3{
+    border-radius: 50%;
+    width: 1px;
+    height: 60px;
+    overflow: hidden;
+    background-color: #fff;
+    /* margin-right: 40px; */
+    justify-content: center;
+    display: flex;
+}
+.email-address-jumia3{
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.create-account3{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0.8;
+    justify-content: center;
+    display: flex;
+}
+.email-box3 input{
+    position: relative;
+    width:100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin: 30px 0;
+    margin-left: 70px;
+    border: 1px solid black;
+    outline: none;
+    background-color: transparent;
+    width: 500px;
+    height: 55px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.email-box3 label{
+    position: relative;
+    /* left:0; */
+    top:-5px;
+    /* right: 0; */
+    right: 490px;
+    padding: 10px 0;
+    font-size: 16px;
+    
+    pointer-events: none;
+    transition: 0.8s;
+}
+.email-box3 input:focus~label{
+ top: -39px;
+ /* right:20px; */
+ color:#f8982d;
+ font-size: 18px;
+ font-weight: 600;
+ 
+}
+.email-box3 input:focus{
+  border: 2px solid #f8982d;
+  outline: none;
+  box-shadow: 0 0 5px #f8982d ,0 0 5px #f8982d,0 0 5px #f8982d,0 0 5px #f8982d ;
+}
+.errorpass{
+    color: red;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: -22px;
+    margin-bottom: 10px;   
+}
+/* .eye{
+    color: #f8982d;
+    font-size: 25px;
+    position: relative;
+    right: 115px;
+    top: 5px;
+    font-weight: 600;
+} */
+.btn-continue3{
+    color:white;
+    background-color: #f8982d;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 70px;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+/* .with-phone3{
+    font-size: 17px;
+    color: #f8982d;
+    width: 400px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.with-phone3:hover{
+    background-color: rgb(240, 243, 243);
+} */
+/* .login-with-facebook{
+  
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    
+    height: 50px;
+
+    
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+} */
+
+/* .login-with-facebook .ai{
+    font-size: 25px;
+    color: #ffffff;
+}
+.login-with-facebook p{
+    font-weight: 700;
+    font-size: 16px;
+} */
+.support3{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+}
+.support3 span{
+   
+   display: flex;
+   justify-content: center;
+}
+.image-jumia3{
+    width: 120px;
+    justify-content: center;
+    display: flex;
+    margin-top: 21px;
+} 

@@ -1,0 +1,161 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.login2{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     gap: 6px;
+     /* margin-left: 70px; */
+  
+}
+.image-jumia2{
+    width: 70px;
+    height: 70px;
+    /* margin-right: 40px; */
+    justify-content: center;
+    display: flex;
+}
+.email-address-jumia2{
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.create-account2{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0.8;
+    justify-content: center;
+    display: flex;
+}
+.email-box2 input{
+    position: relative;
+    width:100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin: 30px 0;
+    margin-left: 80px;
+    border: 1px solid black;
+    outline: none;
+    background-color: transparent;
+    width: 500px;
+    height: 55px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.email-box2 label{
+    position: relative;
+    /* left:0; */
+    top:-5px;
+    /* right: 0; */
+    right: 490px;
+    padding: 10px 0;
+    font-size: 16px;
+    
+    pointer-events: none;
+    transition: 0.8s;
+}
+.email-box2 input:focus~label{
+ top: -39px;
+ /* right:20px; */
+ color:#f8982d;
+ font-size: 18px;
+ font-weight: 600;
+ 
+}
+.email-box2 input:focus{
+  border: 2px solid #f8982d;
+  outline: none;
+  box-shadow: 0 0 5px #f8982d ,0 0 5px #f8982d,0 0 5px #f8982d,0 0 5px #f8982d ;
+}
+.errorpass{
+    color: red;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: -22px;
+    margin-bottom: 10px;   
+}
+.eye{
+    color: #f8982d;
+    font-size: 25px;
+    position: relative;
+    right: 115px;
+    top: 5px;
+    font-weight: 600;
+}
+.btn-continue2{
+    color:white;
+    background-color: #f8982d;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 80px;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+.with-phone2{
+    font-size: 17px;
+    color: #f8982d;
+    width: 400px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.with-phone2:hover{
+    background-color: rgb(240, 243, 243);
+}
+/* .login-with-facebook{
+  
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    
+    height: 50px;
+
+    
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+} */
+
+/* .login-with-facebook .ai{
+    font-size: 25px;
+    color: #ffffff;
+}
+.login-with-facebook p{
+    font-weight: 700;
+    font-size: 16px;
+} */
+.support2{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    /* margin-right: 45px; */
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    /* margin-left: 30px; */
+}
+.support2 span{
+   
+   display: flex;
+   justify-content: center;
+}
+.image-jumia22{
+    width: 120px;
+    justify-content: center;
+    display: flex;
+} 

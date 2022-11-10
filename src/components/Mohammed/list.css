@@ -1,0 +1,40 @@
+.list{
+    height: 130px;
+    overflow: auto;
+}
+.block{
+    display: flex;
+    justify-content:space-between;
+}
+.titleprp{
+    background-color: rgb(238, 203, 107);
+    display: flex;
+    height: 50px;
+    display: flex;
+    margin-left: 70px;
+    border-radius: 15px;
+}
+.prag{
+    display: flex;
+    align-items: center;
+
+}
+.haiait{
+    height:350px;
+    background-color: aqua;
+    margin-left: 70px;
+    border-radius: 15px;
+    display: flex;
+    overflow: auto;
+ 
+}
+.dsdsd{
+    display: block;
+}
+.ddddd{
+    display: flex;
+flex-wrap: wrap;
+overflow: auto;
+margin-left: 0px;
+min-height: 250px;
+}

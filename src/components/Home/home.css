@@ -1,0 +1,23 @@
+.pay{
+    background-color: rgb(224, 214, 214);
+    width: 96%;
+    margin-right: 60px;
+    margin-top: 30px;
+    padding: 25px 25px;
+}
+.pay img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-left: 50px; */
+}
+.baby img{
+    width: 96%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.baby img:hover{
+    width: 97%;
+    transition: all 0.2s;
+}

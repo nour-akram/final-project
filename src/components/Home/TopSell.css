@@ -1,0 +1,37 @@
+.topsell img{
+  width: 150px;
+}
+.topsell{
+    width: 96%;
+    padding: 5px 10px;
+    background-color:  rgb(224, 214, 214);
+    margin-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 60px;
+   display: flex;
+   flex-direction: column;
+}
+
+.topsell h1{
+    font-size: 18px;
+   
+}
+.topsell div h3{
+    font-size: 18px;
+    background-color: rgb(202, 172, 172)(139, 86, 86);
+    color:#f68b1e;
+    margin-left: 50px;
+
+}
+
+.topsell div p{
+    font-size: 12px;
+    overflow: ellipsis;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.topsell div span{
+   opacity: 0.7;
+}

@@ -1,0 +1,331 @@
+header{
+  background-color: inherit;
+}
+
+.header__banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  height: 56px;
+}
+.header__banner > .header__banner__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.header__small-banner {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding-inline: 50px;
+  padding-block: 8px;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+.header__small-banner__sellOnJumia {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 1;
+}
+.header__small-banner__middle-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+.header__small-banner__middle-icons > * {
+  padding-inline: 10px;
+  color: #c4c4c4;
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.header__small-banner__middle-icons > *:first-child:hover {
+  color: #fe9900;
+}
+.header__small-banner__middle-icons > *:nth-child(2):hover {
+  color: #f68b1e;
+}
+.header__small-banner__middle-icons > *:nth-child(3):hover {
+  color: #0099ff;
+}
+.header__small-banner__middle-icons > *:last-child:hover {
+  color: #f68b1e;
+}
+.header__small-banner .header__small-banner__img {
+  width: 13px;
+  height: 13px;
+}
+.header__small-banner .header__small-banner__text {
+  font-size: 0.75rem;
+  color: #f68b1e;
+  font-weight: 500;
+}
+
+.lang-flag {
+  display: flex;
+  align-items: center;
+  color: #c4c4c4;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #c7c7cd;
+}
+.lang-flag span:first-child {
+  width: 14px;
+  margin-right: 10px;
+  height: 14px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.lang-flag span:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lang-flag span img.half-transparent {
+  opacity: 0.5;
+}
+.header__small-banner__lang {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .header__small-banner {
+    margin-inline: 0;
+    padding-inline: 5px;
+  }
+  .header__small-banner__middle-icons > * {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header__small-banner__middle-icons {
+    display: none;
+  }
+}
+
+.header__header {
+  display: flex;
+  height: 72px;
+  box-shadow: 0 4px 4px -4px rgb(0 0 0 / 12%);
+  padding-block: 16px;
+  align-items: center;
+  background-color: inherit;
+  padding-inline: 25px;
+  position: sticky;
+  top: 0;
+}
+
+.header__header__logo {
+  width: 178px;
+  height: 30px;
+  cursor: pointer;
+  padding-inline: 10px;
+  margin-right: 25px;
+}
+.header__header__logo img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+.header__header__search {
+  display: flex;
+  flex-grow: 1;
+  padding-inline: 8px;
+  color: #75757a;
+  align-items: center;
+}
+.header__header__search--input {
+  position: relative;
+  flex: 1;
+  height: 100%;
+  margin-right: 8px;
+}
+.header__header__search--input .search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  padding-left: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__header__search--input .search-input {
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px;
+  border: 1px solid #75757a;
+  border-radius: 3px;
+  outline: none;
+  text-indent: 25px;
+  font-size: 1rem;
+}
+
+button.main-btn {
+  padding: 12px 16px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  color: white;
+  background-color: #f68b1e;
+  border: 0;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.875rem;
+ 
+}
+button.main-btn:hover {
+  background-color: #f68b1e;
+}
+
+.header__header__account-help-cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__header__account-help-cart > * {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  padding: 0.5rem;
+  position: relative;
+}
+.header__header__account-help-cart > *:not(:last-child).active > *:last-child {
+  rotate: 180deg;
+}
+.header__header__account-help-cart > * > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 100ms ease;
+  font-size: 1.125rem;
+  user-select: none;
+  color: #222;
+  font-weight: 500;
+  padding: 3px;
+}
+.header__header__account-help-cart > *:hover > *:not(div) {
+  color: #f68b1e;
+  fill: #f68b1e;
+}
+.toggled-menu,
+.help-menu {
+  position: absolute;
+  top: 58px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 150%;
+  gap: 5px;
+}
+.toggled-menu hr {
+  width: 100%;
+  margin-block: 12px;
+  background-color: #c4c4c4;
+}
+.toggled-menu .main-btn {
+  width: 85%;
+  margin-top: 10px;
+}
+.toggled-menu .account-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.toggled-menu .account-menu .account-item {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.toggled-menu .account-menu .account-item:hover {
+  background-color: #f5f5f5;
+  font-weight: 500;
+}
+.help-menu {
+  width: 175%;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.help-menu ul li {
+  width: 100%;
+  padding: 15px 10px;
+}
+.help-menu ul li:hover {
+  background-color: #f5f5f5;
+  font-weight: 500;
+}
+.help-menu hr {
+  width: 100%;
+  margin-block: 12px;
+  background-color: #c4c4c4;
+}
+.help-menu button {
+  width: 90%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.menu-icon-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-icon-container > * {
+  cursor: pointer;
+}
+@media screen and (max-width: 850px) {
+  .header__header__account-help-cart {
+    flex-direction: column;
+    position: absolute;
+    top: 77px;
+    right: 5px;
+    align-items: flex-start;
+    background-color: white;
+    box-shadow: 4px 4px 4px -4px rgb(0 0 0 / 25%) ,
+    -4px -4px 4px -4px rgb(0 0 0 / 25%);
+  }
+  .toggled-menu,
+  .help-menu {
+    left: -107px;
+    top: 0;
+  }
+  .help-menu {
+    left: -100px;
+  }
+  .header__header__logo {
+    margin-right: 10px;
+  }
+  .header__header__search--input .search-input {
+    padding-block: 7px;
+  }
+  .header__header__search--button button.main-btn {
+    padding: 10px 12px;
+    font-size: 0.7rem;
+  }
+}
+.arabic{
+  color: #222;
+}
+.header__header{
+  z-index: 9999;
+}

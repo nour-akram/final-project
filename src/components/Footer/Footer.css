@@ -1,0 +1,188 @@
+.fontt{
+    font-size: 12px;
+    font-weight: 700;
+}
+.font1{
+    font-size: 13px;
+    font-weight: 200;
+    opacity: 0.8;
+}
+.nn{
+    border:1px solid white;
+     width: 90px;
+     border-radius: 5px;
+     color: white;
+}
+
+.nn:hover{
+ color: rgb(219, 152, 28);
+ border: 1px solid  rgb(219, 152, 28);
+}
+
+#nn{
+    border: none;
+    outline: none;
+    position: relative;
+    /* margin-left: 4px; */
+}
+
+svg{
+    width: 20px;
+   fill: white;
+   margin-top: -10px;
+   margin-left: 3px;
+
+}
+
+.na{
+    border: 1px solid white;
+    width: 110px;
+    height: 35px;
+    padding-top: 1px;
+  margin-left: 70px;
+  border-radius: 5px;
+  padding-right: 2px;
+  margin-top: 5px;
+}
+.no{
+    border: 1px solid white;
+    width: 110px;
+    height: 35px;
+    padding-top: 1px;
+  /* margin-left: 60px; */
+  border-radius: 5px;
+  padding-right: 2px;
+  margin-top: 5px;
+  margin-right: 70px;
+}
+
+
+.na:hover,.no:hover{
+    color: orange;
+    border: 1px solid orange;
+}
+.no:hover svg{
+fill:orange;
+}
+
+
+.nnn{
+    margin-top: -16px;
+}
+
+.mm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.required-field {
+    position: absolute;
+    color: red;
+    bottom: -25px;
+    left: 10px;
+}
+
+.div1{
+  display: flex;
+flex-direction: column;
+align-items: center;
+
+/* justify-content: space-between; */
+
+}
+.div1 ul a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+.div1 ul li{
+    list-style: none;
+    word-spacing: 3px;
+}
+.div1 ul li:hover{
+text-decoration: underline;
+}
+.div2{
+
+display: flex;
+justify-content: space-between;
+padding-right: 40px;
+}
+.pad{
+    
+padding-top: 43px;
+/* padding-right: 20px; */
+
+}
+
+.pad2{
+    padding-top: 25px;
+    /* padding-left: 30px; */
+}
+
+.nancy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.nancy i:hover{
+color: orange;
+}
+
+.sv{
+    width: 50px;
+    fill: blue;
+}
+
+.nancy2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.nancy2 i:hover{
+color: orange;
+}
+.nancy2 svg:hover{
+    fill:orange
+}
+.down div ul a{
+  text-decoration: none;
+list-style: none;
+color: white;
+font-size: 13px;
+opacity: 0.7;
+
+}
+.down div ul a:hover{
+text-decoration: underline;
+}
+
+.down{
+  /* border-bottom: 2px solid white; */
+  padding-right: 20px;
+}
+
+
+.es svg:hover{
+    fill:orange
+}
+
+.es i{
+    color: white;
+}
+
+
+
+.es i:hover{
+    color:orange
+}
+
+

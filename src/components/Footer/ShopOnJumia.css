@@ -1,0 +1,36 @@
+.add-button {
+    transition: 0.3s ease;
+    color: black;
+    user-select: none;
+  }
+  .add-button:hover {
+    color: #ff9a02;
+  }
+  .toggle-img {
+    display: none;
+  }
+  .add-button.active ~ .toggle-img {
+    display: block;
+  }
+  .shop-now {
+    display: block;
+    text-decoration: unset;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #f5f5f5;
+    border: 1px outset whitesmoke;
+    width: fit-content;
+    margin: 0 auto;
+    color: #ff9a02;
+  }
+  .shop-now:hover {
+    background-color: #ff9a02;
+    color: #f5f5f5;
+  }
+  .ziad{
+  text-decoration: none;
+  color:#ff9a02;
+  font-weight: 800;
+  
+  }

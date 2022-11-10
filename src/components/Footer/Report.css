@@ -1,0 +1,22 @@
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.input {
+  outline: none;
+}
+.no-select {
+  user-select: none;
+  cursor: not-allowed;
+}
+.input {
+  border: 1px solid #EEE;
+}
+.input-empty {
+  border-width: 2px;
+  border-color: red;
+}

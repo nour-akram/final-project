@@ -1,0 +1,323 @@
+.color {
+    background-color: rgb(234, 62, 62);
+}
+
+.color1 {
+    background-color: rgb(221, 199, 199);
+}
+
+body {
+    box-sizing: border-box;
+
+
+}
+
+
+.header {
+    width: 100%;
+    height: 40px;
+    padding: 0 5%;
+}
+
+
+.header .conterainer .row .one a {
+    color: #f68b1e;
+    text-decoration: none;
+    
+  
+
+}
+
+.header .conterainer .row .one a:hover {
+    text-decoration: underline;
+}
+
+.header .conterainer .row .two a {
+    text-decoration: none;
+}
+
+.header .conterainer .row .three {
+
+    color: rgb(157, 171, 191);
+    padding-left: 450px;
+}
+
+.header .conterainer .row .three a {
+    text-decoration: none;
+    color: rgb(157, 171, 191);
+}
+
+.header .conterainer .row .three image-england:focus,
+.header .conterainer .row .three image-egypt:focus,
+.header .conterainer .row .three image-england:visited,
+.header .conterainer .row .three image-egypt:visited {
+    opacity: 0.5;
+}
+
+.image-england{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.image-egypt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+header {
+    width: 100%;
+    height: 80px;
+    padding: 0 10%;
+}
+
+.image-log {
+    width: 150px;
+
+}
+
+.icon-log {
+    border: none;
+    background-color: #ffffff;
+}
+
+.search-div {
+    width: 90%;
+    height: 45px;
+    display: flex;
+    border: 1px solid #9b9da0;
+    border-radius: 3px;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+
+
+.btn {
+    border-color: #f68b1e;
+    background-color: #f68b1e;
+    color: white;
+    font-weight: 600;
+    height: 45px;
+}
+
+.btn:hover {
+    color: white;
+    font-weight: 600;
+    border-color: #d56e0e;
+    background-color: #d56e0e;
+}
+
+.btn:focus {
+    border-color: #d56e0e;
+    background-color: #f68b1e;
+
+}
+
+.form-control {
+    background-color: #fff;
+    border: none;
+    width: 95%;
+    height: 33px;
+}
+
+.form-control:focus {
+    color: transparent;
+    background-color: #fff;
+    border-color: transparent;
+    outline: transparent;
+    box-shadow: none;
+    /* color: #212529;
+                 
+                    border-color: #86b7fe;
+                    outline: 0;
+                    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%); */
+}
+
+
+.button-nav,
+.button-nav-cart {
+    display: flex;
+    padding: 10px;
+    width: fit-content;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    font-weight: 700 !important;
+}
+
+.button-nav-cart {
+    text-decoration: none;
+    color: #282828;
+}
+
+.button-nav .fa-angle-up {
+    display: none;
+}
+
+.button-nav:focus .fa-angle-up {
+    display: inline;
+}
+
+.button-nav:focus .fa-angle-down {
+    display: none;
+}
+
+.button-nav-cart:hover,
+.button-nav:hover {
+    color: #f68b1e;
+}
+
+.inpt{
+    border: none;
+    outline: none;
+}
+
+.noura{
+    
+    border-radius: 20px;
+    border: none;
+    width: 650px;
+    height: 40px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    padding-top: 7px;
+    padding-left: 20px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.nan div:hover{
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    height: 90px;
+}
+
+.word{
+    font-size: 25px;
+    opacity: 0.7;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.fourdiv{
+    background-color: #f3f3f3;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 150px;
+    padding-top: 20px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.fourdiv div div{
+    font-weight: 500;
+    font-size: 22px;
+    opacity: 0.6;
+}
+.fourdiv .zz{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 5px; */
+    padding-left: 10px;
+    height: 45px;
+}
+.fourdiv .zz i{
+    font-size: 20px;
+    opacity: 0.6;
+    visibility: hidden;
+    /* margin-top: -10px; */
+    padding-right: 20px;
+}
+.fourdiv .zz:hover{
+    color: orange;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    border-radius: 15px;
+    background-color: white;
+   
+    opacity: 1;
+}
+.fourdiv .zz:hover i{
+    visibility: visible;
+}
+.fourdiv .zz:hover div{
+    font-weight: 900;
+}
+.hide{
+    display: none;
+}
+
+#mydiv{
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 220px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+#mydiv ul li{
+    list-style: none;
+    color: orange;
+    padding-top: 6px;
+   font-size: 15px;
+   font-weight: 700;
+}
+#mydiv ul li:hover{
+    color: black;
+    opacity: 0.3;
+    translate:10px;
+}
+
+
+
+
+#mydiv ul .li1{
+    font-size: 23px;
+    font-weight: 900;
+    opacity: 0.7;
+    color: black;
+}
+.sixdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 100px;
+ 
+}
+
+.sixdiv div img{
+    width: 120px;
+}
+.sixdiv div{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 90px;
+    padding-left: 20px;
+   
+}
+.sixdiv div:hover{
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%); 
+}
+.sixdiv div:hover button{
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+.sixdiv div button{
+    border-radius: 20px;
+    width: 100px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    border: none;
+    color: orange;
+    background-color: white;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-weight: 900;
+}

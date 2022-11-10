@@ -1,0 +1,30 @@
+.free-shopping{
+    background-color: #f68b1e;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    width: 96%;
+}
+.images2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 96%;
+    gap: 5px;
+    margin: 10px 0;
+   
+}
+.images2 img{
+    width: 98%;
+    height: auto;
+    border-radius: 15px;
+}
+.images2 img:hover{
+    width: 100%;
+    transition: width 0.2s;
+}
