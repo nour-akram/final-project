@@ -1,37 +1,43 @@
-.topsell img{
-  width: 150px;
-}
-.topsell{
-    width: 96%;
-    padding: 5px 10px;
-    background-color:  rgb(224, 214, 214);
-    margin-top: 40px;
-    border-radius: 5px;
-    text-align: center;
-    margin-right: 60px;
-   display: flex;
-   flex-direction: column;
+.OneProduct {
+  width: 140px;
 }
 
-.topsell h1{
-    font-size: 18px;
-   
+.topsell img {
+  width: 120px;
 }
-.topsell div h3{
-    font-size: 18px;
-    background-color: rgb(202, 172, 172)(139, 86, 86);
-    color:#f68b1e;
-    margin-left: 50px;
-
+.topsell {
+  width: 96%;
+  padding: 5px 10px;
+  background-color: rgb(224, 214, 214);
+  margin-top: 40px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 60px;
+  display: flex;
+  padding: 0 50px;
+  flex-direction: column;
 }
 
-.topsell div p{
-    font-size: 12px;
-    overflow: ellipsis;
+.topsell h1 {
+  font-size: 18px;
+}
+.topsell div h3 {
+  font-size: 18px;
+  background-color: black;
+  color: #f68b1e;
+  width: 50px;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+
+.topsell div p {
+  font-size: 12px;
+  /* overflow: ellipsis;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
+  overflow: hidden;
 }
 
-.topsell div span{
-   opacity: 0.7;
+.topsell div span {
+  opacity: 0.7;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import"./Footer.css"
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import {FaFacebookF} from 'react-icons/fa';
 import {SlSocialYoutube} from 'react-icons/sl';
 import {BsInstagram} from 'react-icons/bs';

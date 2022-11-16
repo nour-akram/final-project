@@ -70,7 +70,7 @@ export default function TopSell (){
         {phones.map(phone => {
           return (
            <Link  to={`/SingleProduct/${phone.id}`}>
-              <div >
+              <div className="OneProduct" >
                     <h3>{phone.discount}</h3>
                     <img  src={phone.imageurl} />
                       <p>{phone.description}</p>

@@ -24,7 +24,14 @@ import Login2 from "./components/login-pages/Login2";
 import Login3 from "./components/login-pages/Login3";
 import SingleProduct from "./components/SingleProduct/SingleProduct";
 import Hashim from "./Hashim"
+
+// import Delivery from "./components/Footer/Delivery"
+// import Contactus from "./components/Footer/Contactus"
+// import HelpCenter from "./components/Footer/HelpCenter"
+// import PayOnJumia from "./components/Footer/PayOnJumia"
+// import ShopOnJumia from "./components/Footer/PayOnJumia"
 import { LanguageProvider, LanguageContext } from "./components/context/LanguageContext";
+// import MainFooter from "./components/Footer/MainFooter";
 export const ThemeContext = createContext();
 
 function App() {
@@ -36,6 +43,12 @@ function App() {
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
+
+  let a=10;
+  let b="20";
+  let c= 80;
+
+  console.log(--c + +b + --a * +b++ - +b * a + --a - +true);
 
   return (
     <AuthContextProvider>
@@ -64,10 +77,16 @@ function App() {
                 <Route path="/login1" element={<Login1 />} />
                 <Route path="/login2" element={<Login2 />} />
                 <Route path="/login3" element={<Login3 />} />
-                <Route path="/Hashim" element={<Hashim />} />
-               
+                {/* <Route path="/Hashim" element={<Hashim />} />
+                <Route path="/HelpCenter" element={<HelpCenter />} />
+                <Route path="/Delivery" element={<Delivery />} />
+                <Route path="/ContactUs" element={<Contactus />} />
+                <Route path="/PayOnJumia" element={<PayOnJumia />} />
+                <Route path="/ShopOnJumia" element={<ShopOnJumia />} /> */}
               </Routes>
             </div>
+            
+            {/* <MainFooter/> */}
           </Router>
         </div>
       </ThemeContext.Provider>

@@ -41,7 +41,7 @@ function MainSection() {
     <>
       <div className="main-section">
         <ul className="main-section__left">
-         <Link to="/Hashim">
+      
          <li
             onMouseMove={() => setContentOnHoverOne(true)}
             onMouseLeave={() => setContentOnHoverOne(false)}
@@ -49,7 +49,7 @@ function MainSection() {
             <CiApple fontSize={15} />
             Supermarket
           </li>
-         </Link>
+       
           <li
             onMouseMove={() => setContentOnHoverTwo(true)}
             onMouseLeave={() => setContentOnHoverTwo(false)}
