@@ -72,7 +72,7 @@ function App() {
 
             <div className="container">
               <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/final_project" element={<Home />} />
                 <Route path="products/:productId" element={<SingleProduct />} />
                 <Route path="/login1" element={<Login1 />} />
                 <Route path="/login2" element={<Login2 />} />
